@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.osx.deployment_target = "10.11"
-  s.ios.deployment_target = "10.0"
-  s.source   = { :git => "https://github.com/IBM-Swift/BlueSocket.git", :tag => s.version }
+  s.ios.deployment_target = "8.0"
+  s.source   = { :git => "ttps://github.com/adileo/BlueSocket.git", :tag => s.version }
   s.source_files = "Sources/*.swift"
   s.pod_target_xcconfig =  {
         'SWIFT_VERSION' => '3.1.1',
